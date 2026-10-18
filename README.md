@@ -66,6 +66,9 @@ Para este ejercicio se modica el script Score para que envie un evento en lugar 
 ![gif](Ejercicio6/gif.gif)
 
 # Ejercicio 7
+Para añadir la mecánica de recompensa se añade un contador `reward` que lleva la cuenta de los puntos obtenidos desde la última recompensa y al alcanzar 100 puntos se reinicia y activa un evento. En el script `CanvaUpdate` se añade una respuesta a este nuevo evento que muestre el mensaje de recompensa recibida.
+
+En la prueba para agilizar el proceso de obtener los puntos se ha aumentado la puntuación obtenida de 5 a 50 y de 10 a 100.
 
 ### Prueba
 ![gif](Ejercicio7/gif.gif)
@@ -76,6 +79,4 @@ Para este ejercicio se modica el script Score para que envie un evento en lugar 
 ![gif](Ejercicio8/gif.gif)
 
 # Ejercicio 9
-
-### Prueba
-![gif](Ejercicio9/gif.gif)
+En el ejercicio 3 el cubo ya era físico.

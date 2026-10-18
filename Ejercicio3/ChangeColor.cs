@@ -13,11 +13,11 @@ public class changeColor : MonoBehaviour
     {
         if (other.gameObject.name != "Cube")
         {
-            CambiarColor();
+            ChangeColor();
         }
     }
 
-    void CambiarColor()
+    void ChangeColor()
     {
         Color colorAleatorio = new Color(Random.value, Random.value, Random.value);
         foreach (Renderer r in renderers)
