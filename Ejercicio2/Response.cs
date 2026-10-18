@@ -17,15 +17,12 @@ public class Response : MonoBehaviour
     {
         if (isMoving)
         {
-            rb.MoveRotation(Quaternion.LookRotation(target.transform.position - rb.position));
-            Vector3 direccion = target.transform.position - rb.position;
+            Vector3 direccion = t.position - rb.position;
             direccion.y = 0;
             // Movimiento
             rb.MoveRotation(Quaternion.LookRotation(direccion));
-            Vector3 delta = target.transform.position - rb.position;
-            delta.y = 0;
-            delta = delta.normalized;
-            rb.MovePosition(rb.position + delta * Time.fixedDeltaTime);
+            Vector3 delta = direccion.normalized;
+            rb.MovePosition(rb.position + delta * 10 * Time.fixedDeltaTime);
         }
     }
 
