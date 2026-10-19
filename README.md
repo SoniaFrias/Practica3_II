@@ -16,7 +16,7 @@ Práctica 4 de Interfaces Inteligentes
   7. [Ejercicio 7](#Ejercicio-7)
   8. [Ejercicio 8](#Ejercicio-8)
   9. [Ejercicio 9](#Ejercicio-9)
-<details>
+</details>
 
 # Ejercicio 1
 Para la escena se han creado cinco esferas (tres de color rojo y dos de color verde). El ejercicio consiste en disparar un evento cuando el cubo colisiona con el cilindro; para ello, se han creado dos scripts correspondientes al notificador y a los suscriptores:
@@ -74,6 +74,10 @@ En la prueba para agilizar el proceso de obtener los puntos se ha aumentado la p
 ![gif](Ejercicio7/gif.gif)
 
 # Ejercicio 8
+Para este ejercicio se solicitaba crear una escena ajustada a las mecánicas del prototipo previo. Personalmente, he decidido contextualizar la escena en una temática espacial/lunar, manteniendo la validez y equivalencia total con los assets de las prácticas anteriores.
+
+Contexto de la Escena
+El jugador toma el control de un astronauta que, junto a un robot compañero, explora la superficie lunar recolectando recursos (piedras). Sin embargo, la zona está vigilada por criaturas hostiles que colaboran entre sí para localizarlo e interceptarlo.
 
 ### Prueba
 ![gif](Ejercicio8/gif.gif)
